@@ -1,3 +1,28 @@
-.cont {
+.container {
     max-width: 1200px;
+}
+body {
+    margin: 0;
+}
+
+.menu, .menu-list {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.menu-list .menu-item {
+    margin-right: 10px;
+}
+
+.menu-list .menu-item .menu-link {
+    color: white;
+} 
+
+.menu-list {
+    list-style: none;
+    height: 50px;
+}
+
+.menu-container {
+    background-color: black;
 }
